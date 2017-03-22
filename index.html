@@ -5,22 +5,32 @@
     <style>
       .chart div{
       font: 10px sans-serif;
-      background-color: steelblue;
+      background-color: #81BEF7;
       text-align: right;
-      padding: 3px;
+      padding: 10px;
       margin: 1px;
-      color: white;
+      color: black;
+      }
+
+      body{
+          background-color: #A9D0F5;
       }
     </style>
+    <title>Federal Budget | 2016 v 1986</title>
   </head>
 
   <body>
-    <a href="http://d3.js.org/d3.v3.min.js">this</a> or <a href="http://d3js.org/d3.v3.min.js">this</a>
-    <hr>
-    
-    <div class="chart">
+    <center><h1>2016 Budget (Barack Obama) v 1986 Budget (Reagan)</h1>
+    <h3>20 years in a nation</h3></center>
 
-    </div>
+    <h3>Amount of Discretionary Spending Available (in billions)</h3>
+    <div class="chart dSpent"></div>
+    <h3>Percentage of Discretionary Spending Used on Defense</h3>
+    <div class="chart pDefense"></div>
+    <h3>Percentage of Discretionary Spending Used on Medicare and Health Spending</h3>
+    <div class="chart health"></div>
+    <h3>Total Federal Debt as Percentage of GDP</h3>
+    <div class="chart debt"></div>
 
     <script src="http://d3js.org/d3.v3.min.js"
 	    charset="utf-8"></script>
@@ -29,4 +39,3 @@
   </body>
 
 </html>
-
