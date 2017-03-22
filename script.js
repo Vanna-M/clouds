@@ -21,3 +21,13 @@ var myTransition = function(m) {
 	    return d * m + "px";
 	});
 };
+
+var myTimedTransition = function(m, dur) {
+    chart.selectAll('div')
+	.data(nums)
+	.transition()
+	.duration(dur)
+	.style('width', function(d) {
+	    return d * m + "px";
+	});
+};
